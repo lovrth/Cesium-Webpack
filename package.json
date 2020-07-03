@@ -1,0 +1,29 @@
+{
+  "name": "cesium-webpack",
+  "version": "1.0.0",
+  "description": "cesium-webpack",
+  "scripts": {
+    "dev": "webpack-dev-server --open --config ./tools/webpack/webpack.dev.js",
+    "ext-dev": "cross-env EXT_IMPORT=external webpack-dev-server --open --config ./tools/webpack/webpack.dev.js",
+    "build": "webpack --config ./tools/webpack/webpack.prod.js",
+    "ext-build": "cross-env EXT_IMPORT=external webpack --config ./tools/webpack/webpack.prod.js"
+  },
+  "keywords": [
+    "cesium"
+  ],
+  "author": "lovrth",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^5.0.4",
+    "cross-env": "^5.2.1",
+    "uglifyjs-webpack-plugin": "^1.3.0",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.8",
+    "webpack-dev-server": "^3.8.0",
+    "webpack-merge": "^4.2.2"
+  },
+  "dependencies": {
+    "cesium": "^1.66.0"
+  }
+}
