@@ -24,7 +24,7 @@
     "webpack-merge": "^4.2.2"
   },
   "dependencies": {
-    "@types/cesium": "^1.66.0",
-    "cesium": "^1.66.0"
+    "cesium": "^1.66.0",
+    "@types/cesium": "^1.66.0"
   }
 }
