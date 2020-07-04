@@ -10,10 +10,10 @@
 
 #### 使用
 ```
-npm cache clean --force
-npm install
-npm run dev
-npm run build
+清理缓存：npm cache clean --force
+安装依赖：npm install 
+调试：npm run dev 
+打包：npm run build 
 ```
 
 #### 访问
